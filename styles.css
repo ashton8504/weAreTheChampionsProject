@@ -69,8 +69,18 @@ img {
     background: #28A9F1;
     border-radius: 8px;
     margin-top: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
 }
 
+.publishBtn:hover {
+    background: #6875b9;
+  }
+  
+  .publishBtn:active {
+    transform: scale(0.95);
+  }
+  
 h3 {
     width: 160px;
     text-align: center;

@@ -14,9 +14,10 @@ const endorsementsQuotes = ref(database, "endorsements")
 const publishBtn = document.querySelector(".publishBtn")
 const inputBox = document.querySelector(".inputBox")
 
-
+// This allows user to add an endorsement 
 publishBtn.addEventListener("click", () => {
     // testing input
     let inputValue = inputBox.value 
+    inputBox.value = ""
     console.log(inputValue)
 })
