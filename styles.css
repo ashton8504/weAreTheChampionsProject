@@ -66,11 +66,14 @@ img {
     width: 282px; /* Adjust the width as needed */
     height: 61px;
     border: none;
-    background: #28A9F1;
+    background: #0169D9;
     border-radius: 8px;
     margin-top: 10px;
     transition: transform 0.2s;
     cursor: pointer;
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
 }
 
 .publishBtn:hover {
