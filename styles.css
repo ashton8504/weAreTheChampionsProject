@@ -103,7 +103,7 @@ h3 {
 
 .endorsementList li {
     width: 100%;
-    height: 72px;
+    height: 100%;
     background: #FFFFFF;
     box-sizing: border-box;
     border: 2px solid pink;
@@ -116,4 +116,6 @@ h3 {
     line-height: 18px;
     border-radius: 10px;
     color: #000000;
+    word-wrap: break-word; /* Enable text wrapping */
+  max-width: 800px; /* Adjust the maximum width as needed */
 }
