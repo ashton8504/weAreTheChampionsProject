@@ -47,6 +47,8 @@ img {
     background: #444059;
     overflow: hidden;
     color: whitesmoke;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .inputBox textarea {
