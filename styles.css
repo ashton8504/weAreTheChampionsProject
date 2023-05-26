@@ -62,6 +62,11 @@ img {
     resize: vertical; /* Allows vertical resizing of the textarea */
 }
 
+p{
+    color: white;
+}
+
+
 .publishBtn {
     width: 282px; /* Adjust the width as needed */
     height: 61px;
@@ -118,4 +123,11 @@ h3 {
     color: #000000;
     word-wrap: break-word; /* Enable text wrapping */
   max-width: 800px; /* Adjust the maximum width as needed */
+}
+
+.endorsementList li:hover,
+.endorsementList li.is-active {
+  /* Styles for hover and active state */
+  background-color: #C82332;
+  color: #FFFFFF;
 }
